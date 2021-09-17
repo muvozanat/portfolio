@@ -1,0 +1,224 @@
+/* Rustamov Ixtiyor */
+* {
+  scroll-behavior: smooth;
+}
+.img__logo {
+  width: 230px;
+  height: auto;
+}
+.w3-blue-fil {
+  background-color: rgb(9, 9, 116);
+  color: #fff;
+}
+
+.w3-menubar {
+  display: none;
+}
+
+.hamburger {
+  width: 100%;
+  right: 0;
+  height: 38vh;
+}
+
+.yuqoriga a {
+  position: fixed;
+  bottom: 32px;
+  right: 16px;
+  color: #ffffff;
+  border: 2px solid rgb(255, 248, 248);
+  background: rgb(9, 9, 116);
+  outline: none;
+  padding: 2px 14px !important;
+  font-size: 18px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  display: none;
+  z-index: 10000;
+}
+
+.w3-blue-fil-title {
+  background-color: rgb(18, 18, 168);
+  color: #fff;
+}
+
+.w3-blue-fil:hover {
+  background-color: rgb(9, 9, 116) !important;
+  color: #fff !important;
+}
+
+.w3-blue-lig {
+  background-color: rgb(18, 18, 168);
+  color: #fff;
+  transition: 0.3s ease background-color;
+}
+.w3-blue-hamburg {
+  background-color: rgb(18, 18, 168);
+  color: #fff;
+}
+
+.w3-blue-hamburg:hover {
+  background-color: rgb(18, 18, 168);
+}
+
+.w3-border-blue-lig {
+  border-color: rgb(18, 18, 168) !important;
+}
+
+.w3-blue-lig:hover {
+  background-color: rgb(9, 9, 116) !important;
+  color: #fff !important;
+}
+
+.w3-rang-qora {
+  background-color: rgba(0, 0, 0, 0.52) !important;
+  color: #fff !important;
+}
+
+.adBanner {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.w3-font-rir {
+  font-size: 2rem;
+}
+
+.img_about {
+  width: 100%;
+  height: auto;
+}
+
+.w3-link {
+  text-decoration: none;
+  color: rgb(18, 18, 168);
+}
+
+.w3-margin-right-rir {
+  margin-right: 16px !important;
+}
+
+.m_img {
+  width: 45px;
+  height: 56px;
+}
+
+.project__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.w3-link_pro {
+  text-decoration: none;
+  color: #fff !important;
+}
+.w3-input-rir:focus {
+  outline: none;
+}
+.w3-textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 200px;
+  resize: none;
+  padding: 3px 8px;
+  border: 1px solid #cccccc;
+}
+.w3-textarea:focus {
+  outline: none;
+}
+
+.w3-hover-container-rir {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.89); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.w3-hover-container-rir:hover .overlay {
+  opacity: 1;
+}
+
+.w3-animatsiya__rir {
+  animation: aylanuvchi 3s linear;
+  animation-iteration-count: inherit;
+}
+
+@keyframes aylanuvchi {
+  0% {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  25% {
+    opacity: 0.25;
+    transform: scale(0.4);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.6);
+  }
+  75% {
+    opacity: 0.75;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 992px) and (min-width: 601px) {
+  .overlay {
+    font-size: 12px;
+    padding: 12px;
+  }
+  .w3-mutahasislik-rir {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .m_card {
+    width: 50%;
+    max-width: 50%;
+  }
+  .mCard {
+    display: flex;
+  }
+  .mCard > p {
+    justify-content: center;
+    align-self: center;
+    padding-left: 10px;
+  }
+  .w3-symbol-rir {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .img_about {
+    margin-top: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w3-margin-right {
+    margin-right: 0px !important;
+  }
+  .hamburger {
+    width: 100%;
+    right: 0;
+    height: 30vh;
+  }
+}
